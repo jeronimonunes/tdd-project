@@ -1,0 +1,11 @@
+O processo tdd da aplicação consiste de testes funcionais e de testes de unidade.
+Quando uma nova funcionalidade precisa ser implementada começamos por escrever um teste funcional,
+rodamos o teste, que não vai passar. Então passamos para o sub-ciclo de testes de unidade.
+Primeiro escrevemos um teste unitário, rodamos, escrevemos um código mínimo e rodamos novamente;
+continuamos no ciclo de roda o teste e escreve código mínimo até que o teste passe.
+O teste passando avaliamos a necessidade de refatoração e, se necessária, fazemos alterações mínimas
+e rodamos os testes e mantemos no ciclo de refatora minimamente e roda os testes até que o código
+esteja bom. O código do teste unitário estando na fase verde, podemos voltar ao teste funcional.
+Executamos o teste funcional, caso ele não passe nós voltamos ao subciclo de teste de unidade.
+Se o teste funcional passar a gente avalia a necessidade de refatoração e caso seja necessário,
+fazemos alterações mínimas e rodamos os testes repetidamente até que o código esteja bom.
